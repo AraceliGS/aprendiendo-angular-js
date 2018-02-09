@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,27 +41,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <!-- Botones -->
-              <input class="btn btn-default" id="btnStep1" type="button" value="Step 1">
-              <input class="btn btn-default" id="btnStep2" type="submit" value="Step 2">
-              <!-- Panel 1 -->
-              <div class="panel" id="step1" >
-                <div class="panel-body">
-                  <h1>Step 1</h1>
-                  <p>This information about step 1</p>
-                </div>
-              </div>
-              <!-- Panel 2 -->
-              <div class="panel" id="step2" >
-                <div class="panel-body">
-                    <h1>Step 2</h1>
-                    <p>This information about step 2</p>
-                </div>
-              </div>
+            <div ng-controller="mainController">
+              <h1>Hello World!</h1>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <script src="vendors/angular/angular.min.js"></script>
     <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
