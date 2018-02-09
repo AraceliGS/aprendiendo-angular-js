@@ -8,6 +8,60 @@
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
+  <!-- Encabezado -->
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--Angular JS-->
+            <a class="navbar-brand" href="#">jQuery</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link 1<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link 2</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <!-- Contenido Principal -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Botones -->
+              <input class="btn btn-default" id="btnStep1" type="button" value="Step 1">
+              <input class="btn btn-default" id="btnStep2" type="submit" value="Step 2">
+              <!-- Panel 1 -->
+              <div class="panel" id="step1" >
+                <div class="panel-body">
+                  <h1>Step 1</h1>
+                  <p>This information about step 1</p>
+                </div>
+              </div>
+              <!-- Panel 2 -->
+              <div class="panel" id="step2" >
+                <div class="panel-body">
+                    <h1>Step 2</h1>
+                    <p>This information about step 2</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
     <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
